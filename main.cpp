@@ -9,7 +9,7 @@ int main(int argc, char *argv[]){
 
    // cout<<port<<" "<<client_message<<endl;
 
-    udp_client UDP_Client = udp_client(port, client_message, "192.168.1.115");
+    udp_client UDP_Client = udp_client(port, client_message, "192.168.1.145");
     UDP_Client.send_message();
     
 }

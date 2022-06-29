@@ -15,7 +15,7 @@ class udp_client{
 public:
     int sockfd;
     char client_message[256];
-    struct sockaddr_in serv_addr;//server address and client address
+    struct sockaddr_in serv_addr;//server address
     socklen_t sLen = sizeof(serv_addr);
 
     udp_client(int port, char *message, const char* ip);
